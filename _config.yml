@@ -44,4 +44,5 @@ plugins:
 
 permalink: /:year/:month/:day/:title
 google_analytics: UA-2943120-4
+show_excerpts: true
 
