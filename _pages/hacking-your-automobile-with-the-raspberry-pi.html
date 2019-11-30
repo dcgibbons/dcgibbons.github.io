@@ -1,0 +1,59 @@
+---
+layout: page
+title: Hacking your Automobile with the Raspberry Pi
+date: 
+type: page
+parent_id: '945'
+published: false
+password: ''
+status: draft
+categories: []
+tags: []
+meta:
+  _wp_page_template: default
+  _edit_last: '2'
+author:
+  login: chadwick
+  email: dcgibbons@gmail.com
+  display_name: chadwick
+  first_name: Chad
+  last_name: Gibbons
+permalink: "/"
+---
+<p>This how-to guide will walk you through how to get started hacking your automobile with a Raspberry Pi, or RPi. I'll cover everything from setting up the hardware and software, to the process you go about when hacking your vehicle's computer systems and networks, and ideas for projects to pursue.</p>
+<h1><!--more--></h1>
+<h1>Introduction to Automobile Electronics</h1>
+<p>If you are interested in hacking on your car, chances are you have heard about <a title="On-board Diagnostics" href="http://en.wikipedia.org/wiki/On-board_diagnostics" target="_blank">OBD-II</a>. This acronym stands for <strong>O</strong>n-<strong>b</strong>oard <strong>D</strong>iagnostics, version 2 and every passenger vehicle sold in the USA since 1996 has been required to have a 16-pin data-link-connector, or DLC, somewhere near the driver's area of the car.</p>
+<p>What OBD-II did not  do is define the communication protocols used; there were a few different industry standards and OEM-specific protocols for a while, such as SAE J1850 PWM, used by Ford, SAE J1850 VPW, used by GM, or <a title="ISO 9141-2" href="http://en.wikipedia.org/wiki/ISO_9141-2" target="_blank">ISO 9141-2</a> used by Chrysler and others.</p>
+<p>The situation became better with the introduction and mandate of ISO 14320, also known as <a title="ISO 14230" href="http://en.wikipedia.org/wiki/ISO_14230" target="_blank">Keyword Protocols 2000</a>. This latter standard well-defined the different signaling protocols and command structure used by vehicle so it was easier to perform diagnostics. Most importantly, the relatively small number of data needed for emissions testing has been legislatively mandated, making emissions testing fast and easy without expensive scan tools.</p>
+<h2>Controller Area Network, or CAN bus</h2>
+<p>Meanwhile, in the early 1980s, Bosch developed a messaging system known as a <a href="http://en.wikipedia.org/wiki/Controller_Area_Network" target="_blank">Controller Area Network</a>, or CAN, specifically for the automotive industry in response to the increasing demand for electronic and computer control in vehicles. For those of you old enough to remember, the early attempts at electronic control of vehicles were really poor, and it took a few generations to get the basics worked out. The CAN design was a huge step in advancing the state of the art, and today almost all vehicles use it for communicating between the different computers in the vehicle.</p>
+<p>I'll cover more about CAN bus technology in a later section, but as it relates to vehicle diagnostics is important here. Starting in 2008, the US government mandated that ISO 15765 be applied to the OBD-II diagnostic link connector for even more consistency in the way vehicle diagnostics are performed.  There is a ton of information in these ISO standards, but the most important one we'll be discussing here is ISO 15765-3, which defines the Unified Diagnostic Services on a CAN bus - think of it as a successor to the KWP2000 protocol mentioned above.</p>
+<h2>Diagnostics</h2>
+<p>So what can you do over the diagnostic link connector? The short answer is: almost everything. This connector was originally intended for emissions-related diagnostics, but vehicle manufacturers quickly leveraged it for a wide variety of other services as well. Today, most vehicles will perform full diagnostics over this connector, allow the electronic control units, or ECUs, to have new software downloaded to them, and even much of the vehicle software development is done via these connectors.</p>
+<p>If you are starting out with vehicle hacking, however, you are probably just interested in probing what parameters your vehicle will happily report over this port. There is a lot here! Smartphone and Tablet applications like <a title="Torque App" href="http://torque-bhp.com" target="_blank">Torque</a>, <a title="Dash Command" href="http://www.palmerperformance.com/products/dashcommand/index.php" target="_blank">Dash Command</a> and the super-fun <a title="Harry's LapTimer" href="http://www.gps-laptimer.de" target="_blank">Harry's LapTimer</a> use standard commands over the OBD-II connector for parameters such as engine RPM, coolant temperature, ambient temperature, fuel to air ratios, etc. Part of your first hacking project will be to figure out what standard parameters your vehicle provides, and then start digging around to find even more.</p>
+<h2>What's Next?</h2>
+<p>Next, I will cover how to use a Raspberry Pi to talk to your vehicle's OBD-II port and find out what information is available. Later, I'll talk more about CAN bus technology in particular, and how you can go about hacking the internal networks of your vehicle to reverse engineer what your ECUs are actually doing.</p>
+<p>I'll focus on using the CAN bus interface of the OBD-II connector, primarily so this will lead us into easy intra-vehicle hacking later on. If all you are interested in is OBD-II diagnostics, then I recommend buying a cheap <a title="ELM Electronics ODB IC's" href="http://elmelectronics.com/obdic.html" target="_blank">ELM327</a>-based dongle with either USB or Bluetooth connectivity, such as <a href="http://www.amazon.com/BAFX-Products-Bluetooth-diagnostics-Android/dp/B005NLQAHS/" target="_blank">this one</a> or <a href="http://www.amazon.com/gp/product/B00H9S71LW/" target="_blank">this one</a>, and using your laptop, smartphone, tablet, or even a Raspberry Pi to talk to your car instead - most of the rest of this document will be irrelevant for you.</p>
+<p>The hardware I'll describe next is based on the <a href="www.microchip.com/MCP2515" target="_blank">Microchip 2515 CAN Controller</a> chip, a very common and low-cost way of interfacing with CAN bus systems. It uses a Serial Peripheral Interface (SPI) to interface with your micro-controller and and is relatively easy to program.</p>
+<p>The Raspberry Pi runs Linux, and luckily for us there are SPI drivers for it, as well as for the MCP2515 chip. There is a little bit of manual effort to get this working, and I'll cover that later.</p>
+<p><!--more--></p>
+<h1><span style="color: #000000; font-weight: bold;">Hardware </span></h1>
+<p>You'll need the following hardware to get started:</p>
+<ol>
+<li><a title="Raspberry Pi Model B" href="https://www.sparkfun.com/products/11546">Raspberry Pi Model B</a> - $39.95 from SparkFun</li>
+<li><a title="OBD-II to DB9 Cable" href="https://www.sparkfun.com/products/10087" target="_blank">OBD-II to DB9 Cable</a> - $9.95 from SparkFun</li>
+<li><a title="PICAN CAN-Bus board for the Raspberry Pi" href="http://skpang.co.uk/catalog/pican-canbus-board-for-raspberry-pi-p-1196.html" target="_blank">PICAN CAN-Bus Board </a>for the Raspberry Pi - £31.08 from SK Pang (hopefully SparkFun will carry this locally in the US at some point to get the price a bit lower)</li>
+<li><a href="http://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B003MTTJOY/">Edimax EW-7811Un USB WiFi Adapter</a> - $9.95 from Amazon</li>
+<li>SDHC Memory Card of your choice, such as the <a href="http://www.amazon.com/Kingston-Class-Memory-SD4-32GB/dp/B001C9P5TO/">Kingston 32 GB Class 4 card</a> - $18.95 from Amazon, but you can get by with an 8 GB card if you want to spend less</li>
+</ol>
+<p>If you are handy with a soldering iron, you can buy some lower priced CAN controller boards such as the <a href="http://www.mikroe.com/add-on-boards/communication/canspi/" target="_blank">CANSPI board</a> from MikroElektronika, or the <a href="http://www.futurlec.com/Mini_CAN_Board.shtml" target="_blank">Mini CAN board</a> from Futurlec. Also, building your own circuit is very inexpensive, as you can get <a href="http://www.mouser.com/ProductDetail/Microchip-Technology/MCP2515-I-P/?qs=sGAEpiMZZMsUzhEcHltCuSOcEwahSJb4" target="_blank">MCP2515</a> CAN controller for $1.98 from Mouser, and the <a href="http://www.mouser.com/ProductDetail/Microchip-Technology/MCP2551-I-P/?qs=sGAEpiMZZMsUzhEcHltCuakdA9bgjCdk" target="_blank">MCP2551</a> transceiver for $1.12. Add in a crystal, a few capacitors and resistors are you are done for less than $10 in parts.</p>
+<p>Keep in mind that the Raspberry Pi's GPIO pins are 3.3V, and the MCP2515 is a 5V chip, so unless your board is made for a 3.3V system, you will need to use voltage dividers on all the on MCP2515 Interrupt (INT) and Master-In-Slave-Out (MOSI) pins. I can cover this in more detail in another post if anyone requests; I have used the CANSPI board from MikroElektronika successfully this way with the Raspberry Pi.</p>
+<p>To power your Raspberry Pi, you'll need to use the USB power port on the board. Even though the diagnostic link connector provides +12V power, the Raspberry Pi does not have a mechanism to have voltage in via the GPIO header, so the PICAN board does not connect power via its DB9 connector.</p>
+<p>If you want to consider a semi-permanent mount in your vehicle where the Raspberry Pi has power from the vehicle, consider <a href="http://www.mausberrycircuits.com/collections/car-power-supply-switches/products/2a-car-supply-switch">this circuit</a> from Mausberry Circuits. It is designed to provide ignition-switched power to the RPi, but via a constant +12V source so that the RPi can be shutdown and booted up cleanly.</p>
+<p>You'll find as you work with a Raspberry Pi that shutting down the operating system cleanly is very important - you will likely frequently corrupt the memory card until you get a consistent power process worked out. Be prepared to re-image your memory card regularly until you get this process down.</p>
+<h1>Software</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
