@@ -43,3 +43,5 @@ plugins:
 #   - vendor/ruby/
 
 permalink: /:year/:month/:day/:title
+google_analytics: UA-2943120-4
+
