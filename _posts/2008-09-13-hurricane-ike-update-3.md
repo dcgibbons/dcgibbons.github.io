@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Hurricane Ike update # 3'
+date: 2008-09-13 18:00:04.000000000 -07:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Weather
+tags:
+- storm
+meta:
+  _edit_last: '1'
+author:
+  login: chadwick
+  email: dcgibbons@gmail.com
+  display_name: chadwick
+  first_name: Chad
+  last_name: Gibbons
+permalink: "/2008/09/13/hurricane-ike-update-3/"
+---
+Damage to trees and fences in the area much more extensive than in our neighborhood. Still no major structural damage seen except from downed trees. Power is still out but generator still running well. Power flickered on around 5pm so maybe we'll get lucky.
+
+Lori is mad the storm didn't kill off all the mosquitoes.
+
