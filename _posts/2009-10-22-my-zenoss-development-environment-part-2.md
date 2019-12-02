@@ -1,44 +1,19 @@
 ---
-layout: post
 title: My Zenoss Development Environment - Part 2
 date: 2009-10-22 13:26:36.000000000 -07:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories:
-- Jobs
-- Software Development
-- Technology
-- Zenoss
-tags:
-- eclipse
-- open source
-- Python
-- work
-- Zenoss
-meta:
-  _edit_last: '1'
-  _oembed_c4f43d36b8395634d1217fa55f78fbee: "{{unknown}}"
-  _oembed_c3ad068fb66b9fe4bebb605661b4822e: "{{unknown}}"
-  _oembed_81e13ee8c16de54815ece416cb1cb88a: "{{unknown}}"
-  _oembed_1ebc588ba30f74e8061a827e30b41a64: "{{unknown}}"
-  _oembed_195afe370ba05af0ffa96adef6665894: "{{unknown}}"
-  _oembed_dc9ecc9c995a7a0a9f553a4605182d5d: "{{unknown}}"
-  _oembed_6ab0856aec29b076321d4d27617e39f6: "{{unknown}}"
-  _oembed_a6e6a2b6c76d720b501420e8a88e6a00: "{{unknown}}"
-  _oembed_e2519c176316d918a9c5beef692dab2f: "{{unknown}}"
-  _oembed_a81681e676854f61fe369e96dc87f010: "{{unknown}}"
-author:
-  login: chadwick
-  email: dcgibbons@gmail.com
-  display_name: chadwick
-  first_name: Chad
-  last_name: Gibbons
+categories: [jobs, software development, technology, zenoss]
+tags: [eclipse, open source, python, work, zenoss]
+author: chadwick
 permalink: "/2009/10/22/my-zenoss-development-environment-part-2/"
 ---
-In [Part 1](http://chadgibbons.com/2009/10/22/my-zenoss-development-environment-part-1/) of this series we discussed getting an initial [Zenoss](http://www.zenoss.com/) environment checked out and running on a [Mac OS X](http://www.apple.com/macosx/)or [Ubuntu](http://www.ubuntu.com/) system. In this part, we'll discuss configuring [Eclipse](http://www.eclipse.org/) to use this environment.
+In [Part
+1](http://chadgibbons.com/2009/10/22/my-zenoss-development-environment-part-1/)
+of this series we discussed getting an initial
+[Zenoss](http://www.zenoss.com/) environment checked out and running on a [Mac
+OS X](http://www.apple.com/macosx/)or [Ubuntu](http://www.ubuntu.com/) system.
+In this part, we'll discuss configuring [Eclipse](http://www.eclipse.org/) to
+use this environment.
 
 ## Mac OS X Prerequisites
 

@@ -1,31 +1,10 @@
 ---
-layout: post
 title: My Zenoss Development Environment - Part 3
 date: 2009-10-22 16:01:01.000000000 -07:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories:
-- Jobs
-- Software Development
-- Technology
-- Zenoss
-tags:
-- eclipse
-- open source
-- Python
-- work
-- Zenoss
-meta:
-  _edit_last: '1'
-author:
-  login: chadwick
-  email: dcgibbons@gmail.com
-  display_name: chadwick
-  first_name: Chad
-  last_name: Gibbons
+categories: [jobs, software development, technology, zenoss]
+tags: [eclipse, open source, pyuthon, work, zenoss]
+author: chadwick
 permalink: "/2009/10/22/my-zenoss-development-environment-part-3/"
 ---
 In [Part 1](../2009/10/22/my-zenoss-development-environment-part-1/) of this series we discussed getting an initial [Zenoss](http://www.zenoss.com/) environment checked out and running on a [Mac OS X](http://www.apple.com/macosx/)or [Ubuntu](http://www.ubuntu.com/) system. In [Part 2](http://chadgibbons.com/2009/10/22/my-zenoss-development-environment-part-2/) we discussed how to configure [Eclipse](http://www.eclipse.org/) to use the Zenoss source. In this part, we'll discuss how to handle day-to-day operations such as branch management and working with multiple versions.
