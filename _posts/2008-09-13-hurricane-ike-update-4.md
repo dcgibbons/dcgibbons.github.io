@@ -1,31 +1,30 @@
 ---
-layout: post
 title: 'Hurricane Ike update # 4'
 date: 2008-09-13 20:57:37.000000000 -07:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories:
-- Weather
-tags:
-- damage
-- hurricane
-- storm
-meta:
-  _edit_last: '1'
-author:
-  login: chadwick
-  email: dcgibbons@gmail.com
-  display_name: chadwick
-  first_name: Chad
-  last_name: Gibbons
+categories: [weather]
+tags: [damage, hurricane, storm]
+author: chadwick
 permalink: "/2008/09/13/hurricane-ike-update-4/"
 ---
-As of 7:30 pm our local power came on. We're hoping that it stays on through the night at a minimum, and really hopeful it is back on permanently. I spoke with my parents in the Houston Heights area of town and they said power is not back on in their section of the neighborhood, but it is a few blocks over, so hopefully power will be restored in most parts of the "city" areas that are away from the coast in short-order. Right now, CenterPoint Energy is saying power will take 2 to 3 weeks to be fully restored, but given the damage to the coastal areas this is not too much of a surprise.
+As of 7:30 pm our local power came on. We're hoping that it stays on through
+the night at a minimum, and really hopeful it is back on permanently. I spoke
+with my parents in the Houston Heights area of town and they said power is not
+back on in their section of the neighborhood, but it is a few blocks over, so
+hopefully power will be restored in most parts of the "city" areas that are
+away from the coast in short-order. Right now, CenterPoint Energy is saying
+power will take 2 to 3 weeks to be fully restored, but given the damage to the
+coastal areas this is not too much of a surprise.
 
-Lori and I walked around our neighborhood and took some pictures of the damage. It is clear that we personally got very lucky - we have no damage at all, save a couple of tree branches that we've already cleaned up. Many other people in our neighborhood and surrounding ones have substantial damage from fallen trees on their homes, and many of the older fences and trees have been destroyed. There is debris everywhere. The good news is that, for the most part, the wind was not high enough in this part of town to destroy structure from wind alone. We saw no broken windows, a few torn gutters, and a handful of shingles, but that's been it.
+Lori and I walked around our neighborhood and took some pictures of the
+damage. It is clear that we personally got very lucky - we have no damage at
+all, save a couple of tree branches that we've already cleaned up. Many other
+people in our neighborhood and surrounding ones have substantial damage from
+fallen trees on their homes, and many of the older fences and trees have been
+destroyed. There is debris everywhere. The good news is that, for the most
+part, the wind was not high enough in this part of town to destroy structure
+from wind alone. We saw no broken windows, a few torn gutters, and a handful
+of shingles, but that's been it.
 
 Some select pictures from our walk around the neighborhood:
 

@@ -1,31 +1,19 @@
 ---
-layout: post
 title: net-snmp snmpd failure in CentOS 5
 date: 2008-06-10 15:27:05.000000000 -07:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories:
-- Jobs
-- Technology
-- Zenoss
-tags:
-- snmp
-- Zenoss
-meta:
-  _edit_last: '2'
-author:
-  login: chadwick
-  email: dcgibbons@gmail.com
-  display_name: chadwick
-  first_name: Chad
-  last_name: Gibbons
+categories: [jobs, technology, zenoss]
+tags: [snmp, zenoss]
+author: chadwick
 permalink: "/2008/06/10/net-snmp-snmpd-failure-in-centos-5/"
 ---
-<p>I was recently testing <a href="http://www.zenoss.org/">Zenoss</a> on a CentOS 5 system when I discovered that the <code>snmpd</code> component of net-snmp would not start. There were no error messages in <code>/var/log/snmpd.log</code> so this made diagnosis a bit tricky given I had never used the tool before. :-)</p>
-<p>Running the daemon manually with <code>snmpd -f</code> showed the following error:</p>
+<p>I was recently testing <a href="http://www.zenoss.org/">Zenoss</a> on a
+CentOS 5 system when I discovered that the <code>snmpd</code> component of
+net-snmp would not start. There were no error messages in
+<code>/var/log/snmpd.log</code> so this made diagnosis a bit tricky given I
+had never used the tool before. :-)</p> <p>Running the daemon manually with
+<code>snmpd -f</code> showed the following error:</p>
+
 <pre>
 snmpd: symbol lookup error: snmpd: undefined symbol: smux_snmp_select_list_get_length
 </pre>
@@ -37,6 +25,7 @@ net-snmp-5.3.1-19.el5_1.4
 [root@cgibbons-dev CentOS]# rpm --query net-snmp-libs
 net-snmp-libs-5.3.1-14.el5
 </pre>
+
 <p>And then a quick update of the <code>net-snmp-libs</code> package solved the issue:</p>
 <pre>
 [root@cgibbons-dev ~]# yum update net-snmp-libs
@@ -45,7 +34,7 @@ Setting up Update Process
 Setting up repositories
 base                      100% |=========================| 1.1 kB    00:00     
 updates                   100% |=========================|  951 B    00:00     
-addons                    100% |=========================|  951 B    00:00     
+addons                    100% |=========================|  951 B    00:00    
 extras                    100% |=========================| 1.1 kB    00:00     
 Reading repository metadata in from local files
 Resolving Dependencies

@@ -1,35 +1,28 @@
 ---
-layout: post
 title: new MacBook setup
 date: 2009-03-17 21:07:37.000000000 -07:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
-categories:
-- Jobs
-- Software Development
-- Technology
-- Zenoss
-tags:
-- Apple
-- mac
-meta:
-  _edit_last: '1'
-author:
-  login: chadwick
-  email: dcgibbons@gmail.com
-  display_name: chadwick
-  first_name: Chad
-  last_name: Gibbons
+categories: [jobs, software development, technology, zenoss]
+tags: [apple, mac]
+author: chadwick
 permalink: "/2009/03/17/new-macbook-setup/"
 ---
-I bought another Mac today, a nice 2.4 GHz 13-inch unibody MacBook. I had planned on buying a 17-inch unibody MacBook Pro, and very nearly did, but luckily sanity won out and I remembered how much of a hassle it was to carry around those giant things, even if they are only "only" 6.6 lbs.
+I bought another Mac today, a nice 2.4 GHz 13-inch unibody MacBook. I had
+planned on buying a 17-inch unibody MacBook Pro, and very nearly did, but
+luckily sanity won out and I remembered how much of a hassle it was to carry
+around those giant things, even if they are only "only" 6.6 lbs.
 
-I had a 2.0 GHz 13-inch MacBook a couple of years ago when the first Intel-based models came out and I do remember the screen resolution, while not abundant, was more than adequate for browsing, e-mail and even development. And, the unibody model is only 4.5 lbs, so 2 lbs lighter will be a lot nicer to carry around. I also sprung for a spare battery to try and help get a little closer to the awesome battery life of the 17-inch model.
+I had a 2.0 GHz 13-inch MacBook a couple of years ago when the first
+Intel-based models came out and I do remember the screen resolution, while not
+abundant, was more than adequate for browsing, e-mail and even development.
+And, the unibody model is only 4.5 lbs, so 2 lbs lighter will be a lot nicer
+to carry around. I also sprung for a spare battery to try and help get a
+little closer to the awesome battery life of the 17-inch model.
 
-Of course, the obvious question is why buy another laptop when I've already got a nice 15-inch MacBook Pro that work provides? The answer there is easy: I don't want to do anything personal, even development, on the work provided machine.
+Of course, the obvious question is why buy another laptop when I've already
+got a nice 15-inch MacBook Pro that work provides? The answer there is easy: I
+don't want to do anything personal, even development, on the work provided
+machine.
 
 Now, on to the actual system setup, documented here for posterity.
 
