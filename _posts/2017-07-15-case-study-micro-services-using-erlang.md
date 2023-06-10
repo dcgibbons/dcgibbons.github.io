@@ -22,5 +22,5 @@ patterns and written in the Erlang programming language.
 You can watch a recording of the presentation below, as well as review the
 [slide deck](https://speakerdeck.com/dcgibbons/erlang-micro-services-with-all-the-buzzwords).
 
-{% youtube "https://www.youtube.com/watch?v=9o-2K-5SaGw&t=1s" %}
+![](https://www.youtube.com/watch?v=9o-2K-5SaGw&t=1s)
 

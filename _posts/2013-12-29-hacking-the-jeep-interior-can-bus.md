@@ -233,25 +233,25 @@ and Raspberry Pi to talk to a CAN bus, and details about upcoming projects.
 
 Part 1 - Installing the custom wiring harness
 
-{% youtube "http://youtu.be/JjYreU3H0hw" %}
+![](https://www.youtube.com/watch?v=JjYreU3H0hw)
 
 Part 2 - routing the CAN-Bus extension
 
-{% youtube "http://youtu.be/fTPKRqLchs0" %}
+![](https://www.youtube.com/watch?v=fTPKRqLchs0)
 
 Part 3 - Hooking up the bus to the Raspberry Pi
 
-{% youtube "http://youtu.be/pboA7\_q0f-E" %}
+![](https://www.youtube.com/watch?v=pboA7\_q0f-E)
 
 Part 4 - Using Linux to Analyze CAN-Bus Data
 
-{% youtube "http://youtu.be/A9Sdc\_j2i6I" %}
+![](https://www.youtube.com/watch?v=A9Sdc\_j2i6I)
 
 Part 5 - Sending Custom Messages to the EVIC
 
-{% youtube "http://youtu.be/gHwQwhEFE34" %}
+![](https://www.youtube.com/watch?v=gHwQwhEFE34)
 
 Part 6 - What Happens if you Corrupt the CAN-Bus
 
-{% youtube "http://www.youtube.com/watch?v=FuIBvmrVpGA" %}
+![](https://www.youtube.com/watch?v=FuIBvmrVpGA)
 

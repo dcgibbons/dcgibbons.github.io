@@ -17,7 +17,7 @@ and a longish video of how the testing went.
 If you want to skip all the bench testing, the actual in-car testing happens
 at the 11:15 mark of the video.
 
-{% youtube "http://www.youtube.com/watch?v=v64EYqzys0Q" %}
+![](https://www.youtube.com/watch?v=v64EYqzys0Q)
 
 Code for the demo can be found
 at [https://github.com/dcgibbons/jeepbot/tree/poc1](https://github.com/dcgibbons/jeepbot/tree/poc1

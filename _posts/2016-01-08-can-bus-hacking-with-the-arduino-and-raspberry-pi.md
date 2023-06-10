@@ -27,9 +27,9 @@ are great to integrate with as they use an Serial Peripheral Interface (SPI).
 
 #### The Videos
 
-{% youtube "https://www.youtube.com/watch?v=f5lvxXVYxKY" %}
+![](https://www.youtube.com/watch?v=f5lvxXVYxKY)
 
-{% youtube "https://www.youtube.com/watch?v=xClkZThopSk" %}
+![](https://www.youtube.com/watch?v=xClkZThopSk)
 
 #### The CAN Bus
 
