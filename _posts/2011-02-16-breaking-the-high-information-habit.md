@@ -7,9 +7,7 @@ tags: [linkedin]
 author: chadwick
 permalink: "/2011/02/16/breaking-the-high-information-habit/"
 ---
-[![]({{ site.baseurl }}/assets/images/748277_96857240-300x224.jpg
-"748277\_96857240")](http://chadgibbons.com/wp-content/uploads/2011/02/748277_96857240.jpg)In
-January of 2011 I took a deliberate break from my high-information diet. No
+In January of 2011 I took a deliberate break from my high-information diet. No
 news, television or on-line, no blogs, no Facebook, no Twitter for a whole
 month. It was awesome, and highly effective at completely breaking my
 high-information diet habit.
