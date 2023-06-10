@@ -7,7 +7,8 @@ tags: [boating, fish, heat, kayak, summer, water]
 author: chadwick
 permalink: "/2008/07/06/kayaking-over-4th-of-july-weekend/"
 ---
-[![Kayak Path in Christmas Bay]({{ site.baseurl }}/assets/images/kayak-2008-07-04-300x196.png "kayak-2008-07-04")](http://chadgibbons.com/wp-content/uploads/2008/07/kayak-2008-07-04.png)Over the fourth of July weekend, my Dad and I went kayaking along coastal Texas.
+
+Over the fourth of July weekend, my Dad and I went kayaking along coastal Texas.
 
 On the 4th, we woke up at 3am and headed down to [Follets
 Island](http://www.tshaonline.org/handbook/online/articles/FF/rrf1.html
@@ -26,8 +27,6 @@ mile from the launch the winds from the storm hit and luckily we made it back
 to the launch before the rains or any thunder started. It made loading the car
 back up a hassle but no real danger on the water itself. We managed to cover
 about 4 miles total during the day.
-
-[![Kayaking in Trinity Bay]({{ site.baseurl }}/assets/images/kayak-2008-07-05-300x198.png "kayak-2008-07-05")](http://chadgibbons.com/wp-content/uploads/2008/07/kayak-2008-07-05.png)
 
 On the 5th we headed to
 [Anahuac](http://www.tshaonline.org/handbook/online/articles/AA/hja8.html

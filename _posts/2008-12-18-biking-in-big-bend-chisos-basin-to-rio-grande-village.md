@@ -7,6 +7,7 @@ tags: ['"Big Bend National Park"', biking, coyote]
 author: chadwick
 permalink: "/2008/12/18/biking-in-big-bend-chisos-basin-to-rio-grande-village/"
 ---
+
 Today I took my road bike on a trip from the Chisos Basin down to the Rio
 Grande Village in [Big Bend National Park](http://www.nps.gov/bibe/). This is
 a 30 mile one-way route that is almost entirely downhill.
@@ -19,8 +20,6 @@ you aren't quite warmed up before tackling the hardest hills of the route and
 at the highest altitude. The good news is that if you can handle those hills,
 you can probably handle the return trip up to the Chisos Basin, either all the
 way from Rio Grande Village or just from Panther Junction.
-
-[![hrdata-2008-12-18]({{ site.baseurl }}/assets/images/3126577823_40b6b9eab9.jpg)](http://www.flickr.com/photos/26521676@N00/3126577823/ "hrdata-2008-12-18 by dcgibbons, on Flickr")
 
 There was a surprise around mile marker 14 west of Panther Junction: a coyote
 decided I'd make a fun chase. I was cruising around 25 MPH when I heard the

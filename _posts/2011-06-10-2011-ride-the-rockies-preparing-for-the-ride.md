@@ -19,10 +19,7 @@ up to 12,000 ft reminded me how foolish I was to think it would come so easy.
 It was easy to get out of breath just doing a normal pace walk, even after all
 the time here.
 
-[caption id="" align="alignright" width="240" caption="Land's End as seen from
-the Grand Mesa Scenic Byway"][![Land's End]({{ site.baseurl
-}}/assets/images/5857953490_fdc0ab8da2_m.jpg "Land's
-End")](http://farm4.static.flickr.com/3149/5857953490_fdc0ab8da2_m.jpg)[/caption]
+![Land's End](/assets/images/grand_mesa_lands_end.jpg)
 
 The effects of the higher elevation on me are different than I would really
 have expected. Yes, if I jump right into it from sea-level, I'll get the
@@ -38,10 +35,8 @@ coastal Texas I can ride for 70 or 80 miles and see a grand total of 150 ft in
 elevation gain. Climbing 5,000 or more ft a day really lets you know your body
 had some hard work to do, and the feeling is incredible.
 
-[caption id="" align="alignleft" width="240" caption="The high point of Rim
-Rock Rd in the Colorado National Monument"][![Rim Rock Rd High Point]({{
-site.baseurl }}/assets/images/5857386721_0335833756_m.jpg "Rim Rock Rd High
-Point")](http://farm3.static.flickr.com/2478/5857386721_0335833756_m.jpg)[/caption]
+![Rim Rock Rd High
+Point](/assets/images/colorado_national_monument_rim_rock_high_point.jpg)
 
 I've been lucky enough this spring to be able to spend some extra time in
 Colorado and do some of my favorite rides: Durango to Silverton, the Colorado

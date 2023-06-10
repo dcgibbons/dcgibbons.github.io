@@ -13,10 +13,8 @@ Today was the ‘easy’ day of this year’s Ride the Rockies. A relatively eas
 day off to relax without having to relocate. A two-night stays in a single
 place is a great thing for riders on a long bicycle tour.
 
-[![Old Sheds on the Range]({{ site.baseurl
-}}/assets/images/5836572823_8cff3abeef_m.jpg "Old Sheds on the
-Range")](http://farm4.static.flickr.com/3466/5836572823_8cff3abeef_m.jpg)This
-part of the valley is incredibly scenic, with lots of beautiful countryside,
+![Old Sheds on the Range](/assets/images/2011_rtr_steamboat_old_sheds.jpg)
+This part of the valley is incredibly scenic, with lots of beautiful countryside,
 ranches, and luxury homes in the hills to gawk at.
 
 I had decided to make this ride a true recovery ride and keep my efforts to a
@@ -32,10 +30,7 @@ it was by no means the hardest. In fact, after leaving aid station 1 we had a
 long, and somewhat steep climb to make – I felt sorry for anyone who overate
 at the aid station pancake buffet and then had to make that climb.
 
-[caption id="" align="alignright" width="240" caption="View after leaving Oak
-Creek"][![View after leaving Oak Creek]({{ site.baseurl
-}}/assets/images/5836579423_5b38396ee3_m.jpg "View after leaving Oak
-Creek")](http://farm6.static.flickr.com/5080/5836579423_5b38396ee3_m.jpg)[/caption]
+![View after leaving Oak Creek](/assets/images/2011_rtr_steamboat_big_climb.jpg)
 
 Once we crested this big climb, we were given a great view of the countryside
 and a nice long descent towards one of the local mines along Twenty-Mile Road.
@@ -49,10 +44,7 @@ a couple of the hills, even though I think the average grade for the entire
 climb was more along 7-8%. It was impossible to stay in the recovery zone on
 these hills, but I took it as easy as I could and just enjoyed the view.
 
-[caption id="" align="alignright" width="191" caption="Chad Climbing near
-Steamboat Springs"][![Chad Climbing near Steamboat Springs]({{ site.baseurl
-}}/assets/images/5849483646_e4bf141841_m.jpg "Chad Climbing near Steamboat
-Springs")](http://www.flickr.com/photos/26521676@N00/sets/72157626986987010/)[/caption]
+![Chad Climbing near Steamboat Springs](/assets/images/2011_rtr_steamboat_chad_climbing.jpg)
 
 The remainder of the ride gave us scenic roads on the outskirts of Steamboat
 Springs, with the same great views of the ranches along the hillsides. This

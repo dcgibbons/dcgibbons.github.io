@@ -120,7 +120,7 @@ follow-up on further progress with this project.
 
 The most amazing thing about this experience so far has been the ease of use
 of the MacroFab interface, their quick turn-around time, and the pricing. For
-these two boards, the price was approximately $76 each. For a hobbyist, this
+these two boards, the price was approximately \\$76 each. For a hobbyist, this
 pricing puts real low-volume projects in easy each. At higher quantities, the
 price drops dramatically. For 1,000 units, for example, pricing approaches $15
 a board for this design.

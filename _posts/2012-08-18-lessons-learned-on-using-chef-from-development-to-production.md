@@ -18,8 +18,6 @@ the experience.
 
 <!--more-->
 
-### 
-
 ### The Product
 
 For more context in the problem my team was solving, let's look at the product
@@ -39,11 +37,7 @@ components:
 
 ### <!--more-->
 
-### 
-
 ### The Lessons
-
-#### 
 
 #### Chef Roles come from your Logical Deployment
 
@@ -58,8 +52,6 @@ in-between these two extremes are more complex and not really a good fit for
 roles, in my opinion).
 
 If you do it right, then your Chef deployment is simply a matter of assigning roles to various systems. It shouldn't be any harder than that.
-
-#### 
 
 #### If you do not yet have a good policy for management of SSL certificates and keys you will need to address this upfront.
 
@@ -77,8 +69,6 @@ from the meta-data stored within the repository. This allowed us to maintain
 very strict control over the Certificate Authorities (i.e. they were children
 of other internal Certificate Authorities) while still providing the
 flexibility we needed for multiple Chef environments.
-
-#### 
 
 #### You may need to rethink how you develop and configuration your applications.
 
@@ -104,8 +94,6 @@ customizations in a deployable template. A poorly designed application
 configuration file forces you to configure everything all the time, and
 eliminating that problem in our code provided benefits all around, including a
 better Chef implementation.
-
-#### 
 
 #### Get your developers on board immediately.
 
@@ -133,8 +121,6 @@ of moving code from development to test to production. The last was especially
 important on our team, as we owned the production deployment during the
 initial beta phases of our application's lifecycle.
 
-#### 
-
 #### Infrastructure as Code isn't a Joke
 
 This lesson should be obvious - your Chef deployments are code and need to be
@@ -146,8 +132,6 @@ together your Chef design.
 Stop. Think carefully. Iterate on a design and repeat. Good engineering
 practices are need - don't wuss out and cut corners just because it is
 infrastructure.
-
-#### 
 
 #### Think about when you want to Deploy from Source Code versus Packages
 
@@ -194,8 +178,6 @@ devops world, this is a best practice and one you will find is mandatory as
 your company grows. Learn to do it now and don't cut this corner.
 
 <!--more-->
-
-## 
 
 ## Summary
 

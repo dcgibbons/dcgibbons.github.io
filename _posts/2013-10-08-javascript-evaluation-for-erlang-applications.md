@@ -29,7 +29,9 @@ active, execute the following to checkout the `erlang_js` project and build it
 locally:
 
 ```
-git clone git://github.com/basho/erlang\_js.git cd erlang\_js; make all test
+git clone git://github.com/basho/erlang_js.git
+cd erlang_js
+make all test
 ```
 
 One of the most compelling uses of a JavaScript engine from another language
@@ -45,7 +47,16 @@ that data to find the first active network interface. Here's an example of how
 you'd do it using `erlang_js`:
 
 ```
-% Start the erlang\_js application and driver. ok = application:start(erlang\_js). {ok, JSDriver} = js\_driver:new(). % Create a deeply-nested data structure to evaluate ServerObj = {struct, [{\<\<"id"\>\>,\<\<"foobar.example.org"\>\>}, {\<\<"type"\>\>,\<\<"linux"\>\>}, {\<\<"interfaces"\>\>, [ {struct, [ {\<\<"name"\>\>,\<\<"eth0"\>\>}, {\<\<"ipaddress"\>\>,\<\<"192.168.1.101"\>\>}, {\<\<"enabled"\>\>,true}]}, {struct, [{\<\<"name"\>\>,\<\<"eth1"\>\>}, {\<\<"ipaddress"\>\>,\<\<"192.168.1.102"\>\>}, {\<\<"enabled"\>\>,true}]}, {struct, [{\<\<"name"\>\>,\<\<"bridge0"\>\>}, {\<\<"enabled"\>\>,false}]} ]} ]}. % Evaluate our object with an arbitrary JavaScript expression JSFun = \<\<"function is\_any\_interface\_enabled(Server) { for (var i = 0; i \< Server.interfaces.length; i++) { if (Server.interfaces[i].enabled) return true; } return false; }"\>\>. js:call(JSDriver, JSFun, [ServerObj]).
+% Start the erlang_js application and driver. 
+ok = application:start(erlang_js). 
+{ok, JSDriver} = js_driver:new(). 
+
+% Create a deeply-nested data structure to evaluate 
+ServerObj = {struct, [{<<"id">>,<<"foobar.example.org">>}, {<<"type">>,<<"linux">>}, {<<"interfaces">>, [ {struct, [ {<<"name">>,<<"eth0">>}, {<<"ipaddress">>,<<"192.168.1.101">>}, {<<"enabled">>,true}]}, {struct, [{<<"name">>,<<"eth1">>}, {<<"ipaddress">>,<<"192.168.1.102">>}, {<<"enabled">>,true}]}, {struct, [{<<"name">>,<<"bridge0">>}, {<<"enabled">>,false}]} ]} ]}. 
+
+% Evaluate our object with an arbitrary JavaScript expression 
+JSFun = <<"function is_any_interface_enabled(Server) { for (var i = 0; i \< Server.interfaces.length; i++) { if (Server.interfaces[i].enabled) return true; } return false; }">>. 
+js:call(JSDriver, JSFun, [ServerObj]).
 ```
 
 The real trick is building your Erlang data structure properly so that the

@@ -12,10 +12,7 @@ Today was the day I was looking forward to the most during this year’s Ride
 the Rockies. I’ve ridden up Cottonwood Pass before, but never got a chance to
 descend.
 
-[caption id="" align="alignright" width="240" caption="Chad at the top of
-Cottonwood Pass"] ![Chad at the top of Cottonwood Pass]({{ site.baseurl
-}}/assets/images/5825567835_c867411acc_m.jpg "Chad at the top of Cottonwood
-Pass")[/caption]
+![Chad at the top of Cottonwood Pass](/assets/images/2011_rtr_chad_cottonwood_pass.jpg)
 
 The weather looked perfect starting this morning so looked like a perfect
 opportunity to finally get a chance to see what this pass really looked like
@@ -26,11 +23,7 @@ of the tent and going difficult. I waited, as snug as possible, until the sun
 finally made it over the mountains before venturing out. I still managed to
 get on the road by 7:30am so not too much time was lost waiting.
 
-[caption id="" align="alignright" width="240" caption="Taylor Reservoir as
-seen from Cottonwood Pass"][![Taylor Reservoir as seen from Cottonwood
-Pass]({{ site.baseurl }}/assets/images/5826263176_64f195abb9_m.jpg "Taylor
-Reservoir as seen from Cottonwood
-Pass")](http://farm4.static.flickr.com/3598/5826263176_64f195abb9_m.jpg)[/caption]
+![Taylor Reservoir as seen from Cottonwood Pass](/assets/images/2011_rtr_taylor_reservoir.jpg)
 
 The ride down to Almont was amazingly fast, and a great way to start the day.
 Likewise, the ride through Taylor Canyon has great – perfect weather, gentle

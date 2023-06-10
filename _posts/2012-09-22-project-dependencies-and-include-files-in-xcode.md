@@ -33,7 +33,7 @@ For the purposes of this example we need something simple. Let's just write a
 Hello World application that uses an external framework to get the text - it
 will demonstrate all that we need. Also, we will only cover projects targeted
 for iOS within this post, but look for a follow-up post that discusses
-extending these projects to work on Mac OS X as well.  <!--more-->
+extending these projects to work on Mac OS X as well.
 
 ## The Framework
 
@@ -43,22 +43,25 @@ proving the project functionality, not implementing a useful framework.
 
 1. Create a new Xcode project called HelloFramework. Choose the Cocoa Touch Static Library option for the project type.
 2. Change the HelloFramework.h file to have the following content:
-```
-#import <foundation>
+   ```
+   #import <foundation>
 
-extern NSString* sayHello(const NSString* who);
-</foundation>
-```
+   extern NSString* sayHello(const NSString* who);
+   </foundation>
+   ```
+
 3. Change the HelloFramework.m file to have the following content:
-```
-#import "HelloFramework.h" NSString\* sayHello(const NSString\* who) { return [NSString stringWithFormat:@"Hello there, %@!", who]; }
-```
+   ```
+   #import "HelloFramework.h"
+
+   NSString* sayHello(const NSString* who) {
+     return [NSString stringWithFormat:@"Hello there, %@!", who];
+   }
+   ```
 4. Go to the project's settings and choose Build Phases section.
 5. Press the `Add Build Phase` button on the bottom of the screen and select the `Add Copy Headers` option.
 6. Now that the Copy Headers section appears in the Build Phases section, you can press the add button and add the HelloFramework.h header file to the public section. By doing this, we are telling Xcode we want this header file to be copied to the proper location so that users of the framework can access it.
 7. Finally, build the framework and correct any syntax errors you may have created.
-
-<!--more-->
 
 ## The App
 
@@ -71,22 +74,22 @@ Now we'll create the top-level application that uses the framework.
 3. Add the HelloFramework as a target dependency of the application in the Build Phases section of the main project's settings. Do this for both the main application target and for HelloAppTests, as we'll use the unit tests to confirm our project is working.
 4. Add `libHelloFramework.a` to both targets.
 5. Change `HelloAppTests.m`to have the following content:
-```
-#import <helloframework>
+   ```
+   #import <helloframework>
 
-#import "HelloAppTests.h"
+   #import "HelloAppTests.h"
 
-@implementation HelloAppTests
+   @implementation HelloAppTests
 
-- (void)testBob
-{
-    NSString* actual = sayHello(@"Bob");
-    NSString* expected = @"Hello there, Bob!";
-    STAssertEqualObjects(actual, expected, @"hello string did not match");
-}
+   - (void)testBob
+   {
+       NSString* actual = sayHello(@"Bob");
+       NSString* expected = @"Hello there, Bob!";
+       STAssertEqualObjects(actual, expected, @"hello string did not match");
+   }
 
-@end</helloframework>
-```
+   @end</helloframework>
+   ```
 
 **Note:** our framework's include file was included using angle brackets, not quotes. This is key.
 
@@ -95,7 +98,7 @@ Now we'll create the top-level application that uses the framework.
 ## How it Works
 
 When you perform a build in Xcode, output files are located
-in&nbsp;`~/Library/Developer/Xcode/DerivedData/` by default. Within that
+in `~/Library/Developer/Xcode/DerivedData/` by default. Within that
 directory is a directory for each of your projects with a randomized suffix,
 and inside of each project's directory are all the build artifacts created by
 Xcode.
@@ -107,7 +110,16 @@ example, on my system, the `BUILT_PRODUCTS_DIR` directory is as follows:
 and contains the following contents:
 
 ```
-total 16 0 drwxr-xr-x 9 chadwick staff 306 Sep 22 20:43 ./ 0 drwxr-xr-x@ 3 chadwick staff 102 Sep 22 20:43 ../ 0 drwxr-xr-x 9 chadwick staff 306 Sep 22 20:43 HelloApp.app/ 0 drwxr-xr-x 3 chadwick staff 102 Sep 22 20:43 HelloApp.app.dSYM/ 0 drwxr-xr-x 5 chadwick staff 170 Sep 22 20:43 HelloAppTests.octest/ 0 drwxr-xr-x 3 chadwick staff 102 Sep 22 20:43 HelloAppTests.octest.dSYM/ 0 drwxr-xr-x 3 chadwick staff 102 Sep 22 20:43 include/ 16 -rw-r--r-- 1 chadwick staff 4112 Sep 22 20:43 libHelloFramework.a 0 drwxr-xr-x 3 chadwick staff 102 Sep 22 20:43 usr/
+total 16
+ 0 drwxr-xr-x 9 chadwick staff 306 Sep 22 20:43 ./ 
+ 0 drwxr-xr-x@ 3 chadwick staff 102 Sep 22 20:43 ../ 
+ 0 drwxr-xr-x 9 chadwick staff 306 Sep 22 20:43 HelloApp.app/ 
+ 0 drwxr-xr-x 3 chadwick staff 102 Sep 22 20:43 HelloApp.app.dSYM/ 
+ 0 drwxr-xr-x 5 chadwick staff 170 Sep 22 20:43 HelloAppTests.octest/ 
+ 0 drwxr-xr-x 3 chadwick staff 102 Sep 22 20:43 HelloAppTests.octest.dSYM/ 
+ 0 drwxr-xr-x 3 chadwick staff 102 Sep 22 20:43 include/ 
+16 -rw-r--r-- 1 chadwick staff 4112 Sep 22 20:43 libHelloFramework.a 
+ 0 drwxr-xr-x 3 chadwick staff 102 Sep 22 20:43 usr/
 ```
 
 You will notice two interesting sub-directories here: `include` and `usr`. It

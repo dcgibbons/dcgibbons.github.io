@@ -155,7 +155,7 @@ skipping the last 15 miles or so of the ride. I felt absolutely terrible the
 entire time I was on the bike this day, so the short distance and extra rest
 time was something I needed.
 
-## **Day 4 - Montrose to Crested Butte**
+## Day 4 - Montrose to Crested Butte
 
 ![]({{ site.baseurl }}/assets/images/3672219600_7fa97ea9cf_m.jpg "Blue Mesa")
 
@@ -183,7 +183,7 @@ altitudes of the area.
 Today I spent 8 hours 15 minutes on the bike over 90.7 miles with 6,120 ft
 total ascent. My average speed was a slow 12.4 MPH with a max of 39.3 MPH.
 
-## **Day 5 - Crested Butte**
+## Day 5 - Crested Butte
 
 ![]({{ site.baseurl }}/assets/images/3672223240_bf50b6b911_m.jpg "Crested Butte")
 

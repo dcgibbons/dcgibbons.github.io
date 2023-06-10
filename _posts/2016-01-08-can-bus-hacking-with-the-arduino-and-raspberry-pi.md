@@ -102,11 +102,14 @@ The ip command can give you a big clue on state if you use this command:
 
 ```
 root@raspberrypi:~# ip -details -statistics link show can0 
-3: can0: \<NOARP,UP,LOWER\_UP,ECHO\> mtu 16 qdisc pfifo\_fast state UNKNOWN mode DEFAULT qlen 10 
+3: can0: <NOARP,UP,LOWER_UP,ECHO> mtu 16 qdisc pfifo_fast state UNKNOWN mode DEFAULT qlen 10 
 link/can 
-can \<TRIPLE-SAMPLING\>
+can <TRIPLE-SAMPLING>
 **state ERROR-ACTIVE** 
-restart-ms 0 bitrate 500000 sample-point 0.875 tq 125 prop-seg 6 phase-seg1 7 phase-seg2 2 sjw 1 mcp251x: tseg1 3..16 tseg2 2..8 sjw 1..4 brp 1..64 brp-inc 1 &nbsp; &nbsp;&nbsp; **clock 8000000** re-started bus-errors arbit-lost error-warn error-pass bus-off &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; RX: bytes &nbsp;packets &nbsp;errors &nbsp;dropped overrun mcast &nbsp; &nbsp; 632288 &nbsp; &nbsp; 79036 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 103 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; TX: bytes &nbsp;packets &nbsp;errors &nbsp;dropped carrier collsns &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; 0
+restart-ms 0 bitrate 500000 
+sample-point 0.875 tq 125 prop-seg 6 phase-seg1 7 phase-seg2 2 sjw 1 
+mcp251x: tseg1 3..16 tseg2 2..8 sjw 1..4 brp 1..64 brp-inc 1
+**clock 8000000** re-started bus-errors arbit-lost error-warn error-pass bus-off 
 ```
 
 The couple of things I bolded are key. The clock should be 1/2 of what the
@@ -115,13 +118,16 @@ MCP2515 state - so error-active is what you usually want to see. Error-passive
 or Bus-off are bad. See the mcp2515 datasheet for details there.
 
 You'll want can-utils downloaded and
-installed: [https://github.com/<wbr></wbr>linux-can/can-utils](https://github.com/linux-can/can-utils)
+installed: [https://github.com/linux-can/can-utils](https://github.com/linux-can/can-utils)
 
 Then, if you run the Arduinoo project so it's sending data every 500
 ms, and then run this command on the RPi, you should see some similar output:
 
 ```
-pi@raspberrypi ~ $ candump -t a -c -c -a can0 &nbsp;(1452184714.419422) &nbsp;can0 &nbsp;1FF &nbsp; [8] &nbsp;31 34 32 35 33 00 00 00 &nbsp; '14253...' &nbsp;(1452184714.939332) &nbsp;can0 &nbsp;1FF &nbsp; [8] &nbsp;31 34 32 35 34 00 00 00 &nbsp; '14254...' &nbsp;(1452184715.459257) &nbsp;can0 &nbsp;1FF &nbsp; [8] &nbsp;31 34 32 35 35 00 00 00 &nbsp; '14255...'
+pi@raspberrypi ~ $ candump -t a -c -c -a can0 
+(1452184714.419422) can0 1FF [8] 31 34 32 35 33 00 00 00 '14253...' 
+(1452184714.939332) can0 1FF [8] 31 34 32 35 34 00 00 00 '14254...'
+(1452184715.459257) can0 1FF [8] 31 34 32 35 35 00 00 00 '14255...'
 ```
 
 You can use the can-utils for just about everything. cansend and canplayer are

@@ -12,7 +12,7 @@ I finished the 1st proof-of-concept for using the CAN-Bus data to control
 auxiliary relays. It worked great. Attached is a block diagram of what I used,
 and a longish video of how the testing went.
 
-[caption id="" align="alignnone" width="401"] ![]({{ site.baseurl }}/assets/images/11862587196_970d32ff8e.jpg) Jeep Bot Block Diagram[/caption]
+![](/assets/images/jeep_bot_poc1.png) Jeep Bot Block Diagram
 
 If you want to skip all the bench testing, the actual in-car testing happens
 at the 11:15 mark of the video.

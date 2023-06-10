@@ -39,7 +39,7 @@ compared to many of the other climbs we did. Granted, it doesn't tell the full
 story, as a lot of the climb occurred from Winter Park to this section of the
 pass, but that was even a shallower grade.
 
-[caption id="" align="alignright" width="240" caption="Chad on Berthoud Pass"][![Chad on Berthoud Pass]({{ site.baseurl }}/assets/images/5842976213_a327e8d94e_m.jpg "Chad on Berthoud Pass")](http://www.flickr.com/photos/26521676@N00/sets/72157626986987010/)[/caption]
+![Chad on Berthoud Pass](/assets/images/2011_rtr_berthoud_pass.jpg)
 
 Regardless, I arrived at the top a lot sooner and a lot fresher than I had
 expected. It was certainly cold at the top, but thankfully the ride organizers
@@ -61,10 +61,7 @@ road and was a great way to end the tour.
 
 ## Day 5 - Steamboat Springs to Granby
 
-[caption id="" align="alignright" width="240" caption="Snow on Rabbit Ears
-Pass"][![Snow on Rabbit Ears Pass]({{ site.baseurl
-}}/assets/images/5841090494_0a0db578ca_m.jpg "Snow on Rabbit Ears
-Pass")](http://www.flickr.com/photos/26521676@N00/sets/72157626986987010/)[/caption]
+![Snow on Rabbit Ears Pass](/assets/images/2011_rtr_rabbit_ears_pass.jpg)
 
 My day 5, on the other hand, was not nearly as enjoyable as the last day. In
 fact, it was pretty clearly the one "bad" day of the tour I had. Granted, it
@@ -87,7 +84,7 @@ in a row of hard work, put me in a bit of a cranky mood for what was to
 follow.
 
 Towards the end of the descent, I hear a shout behind me about a rider passing
-- my first reaction was "yes!" since rarely had I noticed riders calling out
+-- my first reaction was "yes!" since rarely had I noticed riders calling out
 if they do pass on a descent. What followed was a pace-line of 6 riders, going
 at least 40-45 mph (I was descending at 35).&nbsp;_Descending_ in a pace-line
 is a rather dangerous and stupid behavior on a group ride, but what most

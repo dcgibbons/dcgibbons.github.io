@@ -7,7 +7,8 @@ tags: [automobile, can, can-bus, car, electronics, hacking, jeep, jk, jku]
 author: chadwick
 permalink: "/2013/12/29/hacking-the-jeep-interior-can-bus/"
 ---
-![Hacked]({{ site.baseurl }}/assets/images/11606646036_53906dbf74_z.jpg)
+
+![Hacked](/assets/images/jeep_hacked.jpg)
 *The Jeep's Electronic Vehicle Information Center (EVIC) Displays a Custom Message*
 
 I have a [2012 Jeep Wrangler Unlimited](http://www.jeep.com/en/2012/wrangler_unlimited/)
@@ -46,7 +47,7 @@ much of the information I was after is on that bus. Unfortunately, I also
 found that the implementation has changed quite a bit from the time most of
 the work was done on that site versus what is in my Jeep today.
 
-![Radio C2]({{ site.baseurl }}/assets/images/11606108833_e549534e1f_z.jpg)
+![Radio C2](/assets/images/jeep_custom_c2_harness.jpg)
 *Custom Wiring Harness using the Radio C2 Connector*
 
 The easiest way to access the CAN-interior bus is the [radio C2
@@ -68,7 +69,7 @@ tedious with that solution, for two primary reasons: a) I had to write code to
 test any hypothesis, and b) I had to be physically connected to the Arduino
 with my laptop, in the car, in the cold of winter.
 
-![RPi]({{ site.baseurl }}/assets/images/11606106573_36e23f3b38_z.jpg)
+![RPi](/assets/images/raspberry_pi_with_canbus_board.jpg)
 *Raspberry Pi with CAN Interface Board*
 
 To solve both issues, I configured a Raspberry Pi system with a CAN interface
@@ -241,11 +242,11 @@ Part 2 - routing the CAN-Bus extension
 
 Part 3 - Hooking up the bus to the Raspberry Pi
 
-![](https://www.youtube.com/watch?v=pboA7\_q0f-E)
+![](https://www.youtube.com/watch?v=pboA7_q0f-E)
 
 Part 4 - Using Linux to Analyze CAN-Bus Data
 
-![](https://www.youtube.com/watch?v=A9Sdc\_j2i6I)
+![]("https://www.youtube.com/watch?v=A9Sdc_j2i6I")
 
 Part 5 - Sending Custom Messages to the EVIC
 

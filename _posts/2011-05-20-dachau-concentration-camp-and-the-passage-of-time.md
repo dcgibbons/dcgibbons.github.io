@@ -13,12 +13,8 @@ Concentration Camp Memorial
 Site](http://www.kz-gedenkstaette-dachau.de/index-e.html), just outside of
 Munich and near the village of Dachau.
 
-[caption id="" align="alignright" width="240" caption="The gate to the Dachau
-Concentration Camp with the German words "Albreit Macht Frei" - "Work Makes
-Free""][![The gate to the Dachau Concentration Camp with the German words
-"Albreit Macht Frei" - "Work Makes Free"]({{ site.baseurl
-}}/assets/images/5673653155_664ef4088b_m.jpg "Dachau
-Gate")](http://flic.kr/s/aHsjur1kFZ)[/caption]
+![The gate to the Dachau Concentration Camp with the German words
+"Albreit Macht Frei" - "Work Makes Free"](/assets/images/Dachau_gate.png)
 
 The Dachau concentration camp is one of the more well-known of the Nazi's
 concentration camp system, primarily because it was the first concentration
@@ -30,21 +26,16 @@ beautiful, pristine, and graceful compared to the horrors that took place
 there. It is quite difficult to appreciate what the prisoners lived through by
 seeing it today.
 
-[caption id="" align="alignleft" width="240" caption="Reconstructed Barracks
-and trees where the original barracks once stood"][![Reconstructed Barracks
-and trees where the original barracks once stood]({{ site.baseurl
-}}/assets/images/5674216252_51d8bfa14f_m.jpg
-"Barracks")](http://flic.kr/s/aHsjur1kFZ)[/caption]
+![Reconstructed Barracks and trees where the original barracks once
+stood](/assets/images/Dachau_barracks.png)
 
 The original prisoner barracks of the camp do not exist. The two buildings
 that can be seen today are a reconstruction, and the interior is much more
 pristine and museum-like than what people experienced during the camp's
 operation.
 
-[caption id="" align="alignright" width="180" caption="The gas chamber of the
-new crematorium building, disguised as a shower room"] ![The gas chamber of
-the new crematorium building, disguised as a shower room]({{ site.baseurl
-}}/assets/images/5674218984_dffbb36d18_m.jpg "Gas Chamber")[/caption]
+![The gas chamber of the new crematorium building, disguised as a shower
+room](/assets/images/Dachau_gas_chamber.png)
 
 Where the horrors of Dachau do become very real is when you visited the
 crematorium area towards the rear of the camp. Along the way, you pass the
@@ -60,9 +51,8 @@ for delousing clothes, a room for prisoners to disrobe, a gas chamber
 disguised as a shower room, and a larger crematorium area designed to keep up
 with the heavy body load the gas chamber was capable of producing.
 
-[caption id="" align="alignleft" width="240" caption="Grave of Thousands
-Unknown"] ![Grave of Thousands Unknown]({{ site.baseurl
-}}/assets/images/5673650783_1a317e104c_m.jpg "Memorial")[/caption]
+![Grave of Thousands
+Unknown](/assets/images/Dachau_grave_of_thousands_unknown.png)
 
 Behind the new crematorium building the character of Dachau changes again.
 Here we have some of the most sacred ground on the memorial site - the
@@ -71,9 +61,6 @@ execution ranges. These areas are memorialized by nature gardens today, and
 are really quite beautiful during the spring time - in some respects, visiting
 Dachau in the middle of winter when it's raining might have seemed more
 appropriate for the nature of the place.
-
-If you'd like to see the rest of my pictures from my visit to Dachau, you can
-find them [here, on Flickr](http://flic.kr/s/aHsjur1kFZ).
 
 If you're visiting Munich, I highly recommend [Radius
 Tours](http://en.auschwitz.org.pl/m/) as a way to visit sights such as Dachau.

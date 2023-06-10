@@ -54,10 +54,8 @@ another rider and I latched on and used them as a nice, big windshield. I
 stayed with them until aid station 5, going at least 5-10 mph faster than I
 would have been able to maintain alone.
 
-[caption id="" align="alignright" width="240" caption="Stagecoach
-Reservoir"][![Stagecoach Reservoir]({{ site.baseurl
-}}/assets/images/5834285834_87147e8f8c_m.jpg "Stagecoach
-Reservoir")](http://farm6.static.flickr.com/5227/5834285834_87147e8f8c_m.jpg)[/caption]
+![Stagecoach Reservoir](/assets/images/2011_rtr_stagecoach_reservoir.jpg)
+
 
 The Stagecoach Reservoir where aid station 5 was located is gorgeous, and
 frankly, so was the remainder of the ride coming into Steamboat Springs. This

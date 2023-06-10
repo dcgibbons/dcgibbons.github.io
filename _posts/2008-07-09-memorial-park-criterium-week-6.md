@@ -23,12 +23,6 @@ until their prime lap was over. This gave us 2 laps at a comfortable pace of
 began in earnest the speeds kicked up to 28 mph and I only made it about 3/4
 of the way through that lap before I was dropped.
 
-[![]({{ site.baseurl }}/assets/images/2656007864_cef913bb73_m.jpg)](http://www.flickr.com/photos/26521676@N00/2656007864/ "photo sharing")
-
-[mpcrit-2008-07-09](http://www.flickr.com/photos/26521676@N00/2656007864/)
-
-Originally uploaded by [dcgibbons](http://www.flickr.com/people/26521676@N00/)
-
 I tried the auto-lap feature of my [heart rate
 monitor](http://www.polarusa.com/Products/consumer/S725X.asp "Polar S725x")
 and tried hard to ignore it completely during the race, for better or worse.

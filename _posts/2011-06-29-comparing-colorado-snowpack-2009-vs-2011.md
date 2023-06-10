@@ -19,14 +19,9 @@ very heavy snow and a long, cool spring.
 It is also clear from the pictures just how low the reservoir level was this
 year compared to the past.
 
-[caption id="" align="alignright" width="500" caption="Taylor Reservoir in
-June, 2009"][![Taylor Reservoir in June, 2009]({{ site.baseurl
-}}/assets/images/3672229528_6460477e1f.jpg "Taylor Reservoir in June,
-2009")](http://www.flickr.com/photos/26521676@N00/sets/72157620584199539)[/caption]
-[caption id="" align="alignright" width="500" caption="Taylor Reservoir in
-June, 2011"][![Taylor Reservoir in June, 2011]({{ site.baseurl
-}}/assets/images/5825712863_eb5a94c24e.jpg "Taylor Reservoir in June,
-2011")](http://www.flickr.com/photos/26521676@N00/sets/72157626986987010)[/caption]
+![Taylor Reservoir in June, 2009](/assets/images/2009_rtr_taylor_reservoir.jpg)
+
+![Taylor Reservoir in June, 2011](/assets/images/2011_rtr_taylor_reservoir.jpg)
 
 Clouds make for more awesome pictures.
 

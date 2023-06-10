@@ -21,8 +21,6 @@ downhill, but there are at least 5 or 6 challenging climbs even when ridden in
 that direction. All of these climbs are very rocky and take a fair amount of
 bike handling skill to complete unscathed.
 
-[![hrdata-2008-12-20]({{ site.baseurl }}/assets/images/3127481462_92e3c2e1b5.jpg)](http://www.flickr.com/photos/26521676@N00/3127481462/ "hrdata-2008-12-20 by dcgibbons, on Flickr")
-
 The southern terminus of Old Ore Road is just a few miles west of Rio Grande
 Village near the Rio Grande Overlook. This is almost all downhill so it makes
 for a nice, fast way to finish up the ride.
@@ -47,26 +45,19 @@ rather not break down on.
 This picture gives you a characteristic view of the start of the road. It is
 typical Chihuahuan desert scenery at first. The rather flat and easy looking
 road seen here is only that way to lure you into a false sense of security
-about your life over the next few hours.  [![PC200074]({{ site.baseurl
-}}/assets/images/3126254853_4aa271d603.jpg)](http://www.flickr.com/photos/26521676@N00/3126254853/
-"PC200074 by dcgibbons, on Flickr")
+about your life over the next few hours.
+![](/assets/images/old_ore_road_start.jpg)
 
 These cliffs are called the Alto Relex. The pour-off pictured here would be
-awesome to see when it was actually raining.  [![PC200080]({{ site.baseurl
-}}/assets/images/3126255709_2b57b5bf4b.jpg)](http://www.flickr.com/photos/26521676@N00/3126255709/
-"PC200080 by dcgibbons, on Flickr")
+awesome to see when it was actually raining. ![](/assets/images/alto_reflex.jpg)
 
 I'm about 3/4 done with the road and still alive, despite a few high-speed
 tumbles and utter exhaustion. Who forgot to tell me mountain biking was harder
-than roadie stuff?  [![PC200084]({{ site.baseurl
-}}/assets/images/3127093790_81dca925a4.jpg)](http://www.flickr.com/photos/26521676@N00/3127093790/
-"PC200084 by dcgibbons, on Flickr")
+than roadie stuff? ![](/assets/images/old_ore_road_break1.jpg)
 
 Taking my last break at Camp de Leon. Jose de Leon was murdered in 1933. His
 gravemaker is just a few hundred yards before the campsite marker.
-[![PC200085]({{ site.baseurl
-}}/assets/images/3126256099_6b1a71bbf8.jpg)](http://www.flickr.com/photos/26521676@N00/3126256099/
-"PC200085 by dcgibbons, on Flickr")
+![](/assets/images/camp_de_leon.jpg)
 
 If you like mountain biking you'll like this road. It isn't a single-track by
 any means, but it's still a blast and takes you through a section of the park
