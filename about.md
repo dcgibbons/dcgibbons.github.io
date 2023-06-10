@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Chad Gibbons is an adventurer, software developer, writer, and investor. He
-began his career in 1988 developing software for 8-bit home cmoputers, IBM PCs,
+![profile](assets/images/profile_with_gargoyle.jpg){:width="240px"} 
+
+Chad Gibbons is an adventurer, software developer, writer, and investor. He 
+began his career in 1988 developing software for 8-bit home computers, IBM PCs,
 and a variety of time-sharing systems such as RSTS/E on PDP-11s, a long with a
 variety of early UNIX platforms.
 
