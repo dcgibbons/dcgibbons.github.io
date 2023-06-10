@@ -14,7 +14,7 @@ Site](http://www.kz-gedenkstaette-dachau.de/index-e.html), just outside of
 Munich and near the village of Dachau.
 
 ![The gate to the Dachau Concentration Camp with the German words
-"Albreit Macht Frei" - "Work Makes Free"](/assets/images/Dachau_gate.png)
+"Albreit Macht Frei" - "Work Makes Free"](/assets/images/Dachau_gate.jpg)
 
 The Dachau concentration camp is one of the more well-known of the Nazi's
 concentration camp system, primarily because it was the first concentration
@@ -27,7 +27,7 @@ there. It is quite difficult to appreciate what the prisoners lived through by
 seeing it today.
 
 ![Reconstructed Barracks and trees where the original barracks once
-stood](/assets/images/Dachau_barracks.png)
+stood](/assets/images/Dachau_barracks.jpg)
 
 The original prisoner barracks of the camp do not exist. The two buildings
 that can be seen today are a reconstruction, and the interior is much more
@@ -35,7 +35,7 @@ pristine and museum-like than what people experienced during the camp's
 operation.
 
 ![The gas chamber of the new crematorium building, disguised as a shower
-room](/assets/images/Dachau_gas_chamber.png)
+room](/assets/images/Dachau_gas_chamber.jpg)
 
 Where the horrors of Dachau do become very real is when you visited the
 crematorium area towards the rear of the camp. Along the way, you pass the
@@ -52,7 +52,7 @@ disguised as a shower room, and a larger crematorium area designed to keep up
 with the heavy body load the gas chamber was capable of producing.
 
 ![Grave of Thousands
-Unknown](/assets/images/Dachau_grave_of_thousands_unknown.png)
+Unknown](/assets/images/Dachau_grave_of_thousands_unknown.jpg)
 
 Behind the new crematorium building the character of Dachau changes again.
 Here we have some of the most sacred ground on the memorial site - the
