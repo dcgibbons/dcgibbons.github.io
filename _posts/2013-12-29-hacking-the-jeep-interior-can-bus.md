@@ -232,27 +232,33 @@ and Raspberry Pi to talk to a CAN bus, and details about upcoming projects.
 
 ## Videos
 
-Part 1 - Installing the custom wiring harness
+### Part 1 - Installing the custom wiring harness
 
-![](https://www.youtube.com/watch?v=JjYreU3H0hw)
+<a href="https://youtu.be/JjYreU3H0hw" target="_blank">https://youtu.be/JjYreU3H0hw</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JjYreU3H0hw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Part 2 - routing the CAN-Bus extension
+### Part 2 - routing the CAN-Bus extension
 
-![](https://www.youtube.com/watch?v=fTPKRqLchs0)
+<a href="https://youtu.be/fTPKRqLchs0" target="_blank">https://youtu.be/fTPKRqLchs0</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fTPKRqLchs0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Part 3 - Hooking up the bus to the Raspberry Pi
+### Part 3 - Hooking up the bus to the Raspberry Pi
 
-![](https://www.youtube.com/watch?v=pboA7_q0f-E)
+<a href="https://youtu.be/pboA7_q0f-E" target="_blank">https://youtu.be/pboA7_q0f-E</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pboA7_q0f-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Part 4 - Using Linux to Analyze CAN-Bus Data
+### Part 4 - Using Linux to Analyze CAN-Bus Data
 
-![]("https://www.youtube.com/watch?v=A9Sdc_j2i6I")
+<a href="https://youtu.be/A9Sdc_j2i6I" target="_blank">https://youtu.be/A9Sdc_j2i6I</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A9Sdc_j2i6I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Part 5 - Sending Custom Messages to the EVIC
+### Part 5 - Sending Custom Messages to the EVIC
 
-![](https://www.youtube.com/watch?v=gHwQwhEFE34)
+<a href="https://youtu.be/gHwQwhEFE34" target="_blank">https://youtu.be/gHwQwhEFE34</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gHwQwhEFE34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Part 6 - What Happens if you Corrupt the CAN-Bus
+### Part 6 - What Happens if you Corrupt the CAN-Bus
 
-![](https://www.youtube.com/watch?v=FuIBvmrVpGA)
+<a href="https://youtu.be/FuIBvmrVpGA" target="_blank">https://youtu.be/FuIBvmrVpGA</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FuIBvmrVpGA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
